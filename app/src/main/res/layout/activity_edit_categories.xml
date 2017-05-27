@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="hu.ait.budgettracker.EditCategoriesActivity">
+
+    <ToggleButton
+        android:id="@+id/tbIO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red_semi_transparent"
+        android:textOff="@string/outcome"
+        android:textOn="@string/income" />
+
+    <RelativeLayout
+        android:id="@+id/activity_edit_categories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lvCategories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.getbase.floatingactionbutton.AddFloatingActionButton
+            android:id="@+id/fabNewCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            app:fabSize="normal"
+            fab:fab_colorNormal="@android:color/holo_blue_dark"
+            fab:fab_colorPressed="@android:color/holo_blue_light"
+            fab:fab_title="@string/add_outcome" />
+
+
+    </RelativeLayout>
+</LinearLayout>

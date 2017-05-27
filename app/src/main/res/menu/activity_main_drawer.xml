@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemTransactions"
+        android:title="@string/view_transactions" />
+
+    <item
+        android:id="@+id/itemEditCategories"
+        android:title="@string/edit_categories" />
+
+    <!--<item android:title="@string/new_transaction">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/itemIncome"-->
+    <!--android:icon="@drawable/ic_menu_share"-->
+    <!--android:title="@string/new_income" />-->
+    <!--<item-->
+    <!--android:id="@+id/itemOutcome"-->
+    <!--android:icon="@drawable/ic_menu_send"-->
+    <!--android:title="@string/new_outcome" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+
+    <item
+        android:id="@+id/itemAbout"
+        android:icon="@mipmap/info"
+        android:title="@string/about" />
+
+
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemFrequency"
+        android:title="Frequency">
+        <menu>
+            <item
+                android:id="@+id/itemDaily"
+                android:title="@string/daily"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/itemWeekly"
+                android:title="@string/weekly"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/itemMonthly"
+                android:title="@string/monthly"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/itemAnnual"
+                android:title="@string/annual"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/itemIO"
+        android:title="@string/chart_data">
+        <menu>
+            <item
+                android:id="@+id/itemIncome"
+                android:title="@string/income"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/itemOutcome"
+                android:title="@string/outcome"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+
+</menu>

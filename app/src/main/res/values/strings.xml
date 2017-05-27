@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Budget Tracker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="annual">Annual</string>
+    <string name="new_outcome">New Outcome</string>
+    <string name="new_income">New Income</string>
+    <string name="new_transaction">New Transaction</string>
+    <string name="about">About</string>
+    <string name="income">Income</string>
+    <string name="outcome">Outcome</string>
+    <string name="transactions">Transactions</string>
+    <string name="optional">Optional</string>
+    <string name="category">Category</string>
+    <string name="frequency">Frequency</string>
+    <string name="amount">Amount</string>
+    <string name="new_category">New Category</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete_transaction">Delete Transaction</string>
+    <string name="sure_delete">Are you sure you want to delete this transaction? This action cannot be undone</string>
+    <string name="other">Other</string>
+    <string name="_income">" Income"</string>
+    <string name="_expenses">" Expenses"</string>
+    <string name="_budget">" Budget Free to Spend"</string>
+    <string name="author">by Sam Berling</string>
+    <string name="add_income">Add New Income</string>
+    <string name="add_outcome">Add New Outcome</string>
+    <string name="add_oCat">Add New Outcome Category</string>
+    <string name="add_iCat">Add New Income Category</string>
+    <string name="view_transactions">View Transactions</string>
+    <string name="edit_categories">Edit Categories</string>
+    <string name="change_category_name">Change Category Name</string>
+    <string name="duplicate_error">An item with those data already exists. Try something else</string>
+    <string name="add_category">Add Category</string>
+    <string name="delete_category">Delete Category</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="chart_data">Chart Data</string>
+    <string name="dollar_sign">$</string>
+</resources>
